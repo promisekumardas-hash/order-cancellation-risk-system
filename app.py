@@ -38,12 +38,6 @@ mode = st.sidebar.selectbox(
 # Helper: preprocessing
 # (temporary – we will move this to utils/preprocessing.py next)
 # -------------------------------
-'''def preprocess_input(df):
-    df_encoded = pd.get_dummies(df)
-    df_encoded = df_encoded.reindex(columns=feature_columns, fill_value=0)
-    df_scaled = scaler.transform(df_encoded)
-    return df_scaled'''
-
 # -------------------------------
 # Mode 1: Single Order Prediction
 # -------------------------------
